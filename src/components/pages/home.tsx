@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './Header';
 import { HeroSection } from './HeroSection';
 import {PhilosophySection} from './PhilosophySection'
+import { GallerySection } from './Gallery';
 
 export const Home = (): JSX.Element => {
   return (
@@ -10,7 +11,7 @@ export const Home = (): JSX.Element => {
         <Header />
         <HeroSection />
         <PhilosophySection/>
-        
+        <GallerySection/>
       </div>
     </div>
   );
