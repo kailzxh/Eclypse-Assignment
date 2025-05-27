@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './Header';
- import { HeroSection } from './HeroSection';
-
+import { HeroSection } from './HeroSection';
+import {PhilosophySection} from './PhilosophySection'
 
 export const Home = (): JSX.Element => {
   return (
@@ -9,6 +9,7 @@ export const Home = (): JSX.Element => {
       <div className="bg-[#070707] w-[1440px] relative">
         <Header />
         <HeroSection />
+        <PhilosophySection/>
         
       </div>
     </div>
