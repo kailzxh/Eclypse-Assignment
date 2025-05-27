@@ -1,9 +1,10 @@
-import { useState } from 'react'
 
-
+import { Home } from './components/pages/home'
+import './index.css';
 
 function App() {
-  return <div>hello world!</div>
+  return <Home/>
+
 }
 
 export default App
