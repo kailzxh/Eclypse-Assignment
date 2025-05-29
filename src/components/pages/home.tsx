@@ -3,6 +3,10 @@ import { Header } from './Header';
 import { HeroSection } from './HeroSection';
 import {PhilosophySection} from './PhilosophySection'
 import { GallerySection } from './Gallery';
+import { ProductSection } from './product';
+import { AccordionSection } from './accordion';
+import { TestimonialSection } from './testimonial';
+import { Footer } from './footer';
 
 export const Home = (): JSX.Element => {
   return (
@@ -12,6 +16,10 @@ export const Home = (): JSX.Element => {
         <HeroSection />
         <PhilosophySection/>
         <GallerySection/>
+         <ProductSection />
+        <AccordionSection />
+        <TestimonialSection />
+        <Footer />
       </div>
     </div>
   );

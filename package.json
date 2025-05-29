@@ -16,6 +16,7 @@
     "anima-project": "file:",
     "class-variance-authority": "^0.7.0",
     "clsx": "2.1.1",
+    "eclypse-assignment": "file:",
     "framer-motion": "^11.0.3",
     "lucide-react": "^0.453.0",
     "react": "^18.2.0",
