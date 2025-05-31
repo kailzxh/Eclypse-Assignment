@@ -25,7 +25,7 @@ interface AccordionContentProps {
 export const Accordion: React.FC<AccordionProps> = ({ 
   children, 
   className = '',
-  collapsible = false 
+   
 }) => {
   return (
     <div className={className}>

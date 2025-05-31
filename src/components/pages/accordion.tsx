@@ -16,7 +16,7 @@ const accordionItems = [
 export const AccordionSection = (): JSX.Element => {
   return (
     <div className="w-[1342px] mx-auto mt-[60px] px-[50px]">
-      <Accordion type="single" className="w-full">
+      <Accordion type="single"  className="w-full">
         {accordionItems.map((item) => (
           <AccordionItem
             key={item.id}
